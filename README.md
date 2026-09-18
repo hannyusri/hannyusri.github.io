@@ -1,9 +1,9 @@
-# Website Profil — Farhan Yusri
+# Website Profil: Farhan Yusri
 
 **Live:** https://hannyusri.github.io
 
 Website profil satu halaman untuk promosi ke klien sekaligus lampiran CV saat melamar kerja.
-Dibuat dengan HTML, CSS, dan JavaScript murni — tanpa framework, tanpa proses build, tanpa install apa pun.
+Dibuat dengan HTML, CSS, dan JavaScript murni: tanpa framework, tanpa proses build, tanpa install apa pun.
 
 > **Status saat ini:** data asli sudah dimasukkan. Sebelum dipublikasikan, lengkapi dulu bagian yang ditandai `// ISI` dan pastikan yang ditandai `// CEK` di dalam `js/data.js`.
 
@@ -51,7 +51,7 @@ Aturan singkat saat mengedit:
 ## Menaruh file pendukung
 
 - **Foto profil** → sudah terpasang di `assets/img/foto-profil.jpg`. Untuk menggantinya, timpa file tersebut. Ukuran ideal potret 800×1000 px.
-- **Gambar portfolio** → simpan di `assets/img/`, isi `gambar` pada tiap proyek di `data.js`. Ideal 1200×750 px. **Belum ada satu pun** — ini yang paling berpengaruh untuk meyakinkan calon klien.
+- **Gambar portfolio** → simpan di `assets/img/`, isi `gambar` pada tiap proyek di `data.js`. Ideal 1200×750 px. **Belum ada satu pun**: ini yang paling berpengaruh untuk meyakinkan calon klien.
 - **CV PDF** → simpan di `assets/docs/`, lalu isi `kontak.cv` dengan `"assets/docs/nama-file.pdf"`.
   Saat ini `kontak.cv` kosong sehingga tombol Download CV tidak ditampilkan.
 - **Favicon** → `assets/img/favicon.svg`.
@@ -60,7 +60,7 @@ Aturan singkat saat mengedit:
 
 ## Logo
 
-Konsepnya dua jalur yang bertemu menjadi satu — terbaca sebagai huruf **Y** (Yusri), sebagai **simpul jaringan** yang senada dengan efek partikel di hero, sekaligus mewakili motto *"membersamai dengan solusi"*: dua pihak berjalan bersama menuju satu titik.
+Konsepnya dua jalur yang bertemu menjadi satu: terbaca sebagai huruf **Y** (Yusri), sebagai **simpul jaringan** yang senada dengan efek partikel di hero, sekaligus mewakili motto *"membersamai dengan solusi"*: dua pihak berjalan bersama menuju satu titik.
 
 | File | Kegunaan |
 |---|---|
@@ -80,8 +80,8 @@ Warna logo mengikuti variabel `--accent` dan `--accent-2` di `css/styles.css`, j
 
 Ada dua mode, diatur lewat `formEndpoint` di baris paling bawah `js/data.js`:
 
-1. **Dikosongkan (`""`)** — mode default. Saat pengunjung menekan Kirim, aplikasi email mereka terbuka dengan isi pesan yang sudah terisi otomatis. Langsung jalan, tanpa daftar apa pun.
-2. **Diisi URL Formspree** — pesan terkirim langsung ke email tanpa membuka aplikasi lain.
+1. **Dikosongkan (`""`)**: mode default. Saat pengunjung menekan Kirim, aplikasi email mereka terbuka dengan isi pesan yang sudah terisi otomatis. Langsung jalan, tanpa daftar apa pun.
+2. **Diisi URL Formspree**: pesan terkirim langsung ke email tanpa membuka aplikasi lain.
    Caranya: daftar gratis di [formspree.io](https://formspree.io) → buat form baru → salin URL endpoint-nya (bentuknya `https://formspree.io/f/xxxxxxx`) → tempel sebagai nilai `formEndpoint`.
 
 ---
@@ -90,7 +90,7 @@ Ada dua mode, diatur lewat `formEndpoint` di baris paling bawah `js/data.js`:
 
 Buka `css/styles.css`, cari blok `:root` di bagian paling atas.
 
-**Warna** — ubah satu baris ini untuk mengganti nuansa seluruh website:
+**Warna**: ubah satu baris ini untuk mengganti nuansa seluruh website:
 
 ```css
 --accent: #C2410C;   /* warna aksen mode terang */
@@ -98,7 +98,7 @@ Buka `css/styles.css`, cari blok `:root` di bagian paling atas.
 
 Warna untuk mode gelap ada di blok `[data-theme="dark"]` tepat di bawahnya.
 
-**Font** — website ini memakai font bawaan sistem (Segoe UI di Windows, San Francisco di Mac), tanpa mengunduh apa pun dari internet. Kalau suatu saat mau ganti, cukup ubah baris ini:
+**Font**: website ini memakai font bawaan sistem (Segoe UI di Windows, San Francisco di Mac), tanpa mengunduh apa pun dari internet. Kalau suatu saat mau ganti, cukup ubah baris ini:
 
 ```css
 --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -130,9 +130,9 @@ Perlu diingat juga: setelah `git push`, GitHub butuh sekitar satu menit untuk me
 
 Pilih salah satu:
 
-- **Netlify Drop** — cara tercepat. Buka [app.netlify.com/drop](https://app.netlify.com/drop), seret folder ini ke halaman tersebut. Langsung dapat link.
-- **GitHub Pages** — upload folder ini ke repository GitHub, lalu aktifkan Pages di Settings → Pages → source `main` / root.
-- **Vercel** — import repository GitHub, tanpa konfigurasi tambahan.
+- **Netlify Drop**: cara tercepat. Buka [app.netlify.com/drop](https://app.netlify.com/drop), seret folder ini ke halaman tersebut. Langsung dapat link.
+- **GitHub Pages**: upload folder ini ke repository GitHub, lalu aktifkan Pages di Settings → Pages → source `main` / root.
+- **Vercel**: import repository GitHub, tanpa konfigurasi tambahan.
 
 Setelah punya domain sendiri, jangan lupa perbarui bagian SEO di `index.html`: `<title>`, `description`, dan tag `og:image` supaya tampilan link saat dibagikan ke WhatsApp/LinkedIn ikut rapi.
 

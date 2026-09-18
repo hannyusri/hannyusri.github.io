@@ -1,5 +1,5 @@
 /* ============================================================================
-   DATA WEBSITE — SATU-SATUNYA FILE YANG PERLU DIEDIT
+   DATA WEBSITE: SATU-SATUNYA FILE YANG PERLU DIEDIT
    ----------------------------------------------------------------------------
    Semua teks, link, dan angka di website diambil dari file ini.
    Cara edit: ganti teks di dalam tanda kutip. Jangan hapus tanda kutip,
@@ -32,15 +32,15 @@ const DATA = {
       "Web3 Contributor"
     ],
 
-    // Motto — tampil sebagai baris tebal di bawah nama.
+    // Motto: tampil sebagai baris tebal di bawah nama.
     moto:        "Membersamai dengan Solusi.",
 
     // Kalimat pendukung di bawah motto.
-    tagline:     "Membangun aplikasi Android, website, dan video animasi AI untuk bisnis dan brand — dikerjakan cepat dengan bantuan AI, tanpa melepas kendali atas kualitas.",
+    tagline:     "Membangun aplikasi Android, website, dan video animasi AI untuk bisnis dan brand. Dikerjakan cepat dengan bantuan AI, tanpa melepas kendali atas kualitas.",
 
     foto:        "assets/img/foto-profil.jpg",
 
-    // CEK — angka ini saya ambil dari rentang pengalaman yang kamu sebutkan.
+    // CEK: angka ini saya ambil dari rentang pengalaman yang kamu sebutkan.
     // Kalau sudah tahu jumlah proyek/klien yang selesai, angka itu jauh lebih
     // meyakinkan. Contoh: { angka: "15+", label: "Proyek selesai" }
     statistik: [
@@ -55,8 +55,8 @@ const DATA = {
      ========================================================================== */
   tentang: {
     paragraf: [
-      "Saya Farhan Yusri, Flutter developer asal Medan. Flutter adalah alat utama saya sehari-hari, dipasangkan dengan Firebase untuk membangun aplikasi Android sekaligus website dari satu basis kode — pengerjaan lebih singkat dan tampilannya konsisten di mana pun dibuka. Di samping itu saya aktif berkontribusi di berbagai project Web3 dan memproduksi video animasi berbasis AI.",
-      "Dalam bekerja saya memanfaatkan AI sebagai alat bantu — mulai dari riset, penulisan kode, sampai produksi visual. Pendekatan ini membuat proses pengerjaan jauh lebih cepat, sementara keputusan teknis dan kendali atas kualitas hasil akhir tetap ada di tangan saya. Cara kerja yang sama juga membuat saya cepat menyesuaikan diri ketika sebuah proyek menuntut teknologi di luar yang biasa saya gunakan.",
+      "Saya Farhan Yusri, Flutter developer asal Medan. Flutter adalah alat utama saya sehari-hari, dipasangkan dengan Firebase untuk membangun aplikasi Android sekaligus website dari satu basis kode, sehingga pengerjaan lebih singkat dan tampilannya konsisten di mana pun dibuka. Di samping itu saya aktif berkontribusi di berbagai project Web3 dan memproduksi video animasi berbasis AI.",
+      "Dalam bekerja saya memanfaatkan AI sebagai alat bantu, mulai dari riset, penulisan kode, sampai produksi visual. Pendekatan ini membuat proses pengerjaan jauh lebih cepat, sementara keputusan teknis dan kendali atas kualitas hasil akhir tetap ada di tangan saya. Cara kerja yang sama juga membuat saya cepat menyesuaikan diri ketika sebuah proyek menuntut teknologi di luar yang biasa saya gunakan.",
       "Prinsip saya sederhana: membersamai dengan solusi. Pekerjaan saya tidak berhenti saat file diserahkan, tapi ikut memastikan apa yang dibangun benar-benar menjawab kebutuhan Anda."
     ],
 
@@ -84,7 +84,7 @@ const DATA = {
      Kalau nanti kamu benar-benar mendalami sesuatu (Riverpod, BLoC, Supabase,
      REST API, Google Play Console, dsb), tambahkan ke daftar di bawah.
 
-     ikon: pilih salah satu — "android", "web", "video", "web3", "flow",
+     ikon: pilih salah satu dari "android", "web", "video", "web3", "flow",
            "code", "design", "database", "cloud", "chat".
      ========================================================================== */
   keahlian: [
@@ -146,7 +146,7 @@ const DATA = {
       ikon: "android",
       deskripsi: "Aplikasi Android sesuai kebutuhan bisnis Anda, dibangun dengan Flutter dari perancangan alur sampai siap dipasang di perangkat pengguna.",
       poin: ["Dibangun dengan Flutter & Dart", "Perancangan alur & antarmuka", "Pengujian & pendampingan rilis"],
-      harga: ""                                    // ISI — opsional
+      harga: ""                                    // ISI: opsional
     },
     {
       nomor: "02",
@@ -154,22 +154,22 @@ const DATA = {
       ikon: "web",
       deskripsi: "Website company profile maupun aplikasi web yang rapi, cepat diakses, dan nyaman dibuka dari ponsel. Bisa berbagi basis kode dengan versi Android-nya lewat Flutter.",
       poin: ["Desain menyesuaikan identitas brand", "Responsif di semua ukuran layar", "Hemat waktu lewat basis kode bersama"],
-      harga: ""                                    // ISI — opsional
+      harga: ""                                    // ISI: opsional
     },
     {
       nomor: "03",
       judul: "Video Animasi AI",
       ikon: "video",
-      deskripsi: "Video animasi untuk promosi, edukasi, maupun konten media sosial — diproduksi dengan teknologi AI sehingga cepat selesai dengan biaya yang lebih terjangkau.",
+      deskripsi: "Video animasi untuk promosi, edukasi, maupun konten media sosial. Diproduksi dengan teknologi AI sehingga cepat selesai dengan biaya yang lebih terjangkau.",
       poin: ["Penyusunan naskah & storyboard", "Animasi dan voice over berbasis AI", "Revisi hingga pesan tersampaikan"],
-      harga: ""                                    // ISI — opsional
+      harga: ""                                    // ISI: opsional
     }
   ],
 
   /* ==========================================================================
      5. KARYA / PORTFOLIO
      ----------------------------------------------------------------------------
-     CEK — nama klien dan tahun perlu kamu pastikan.
+     CEK: nama klien dan tahun perlu kamu pastikan.
 
      PENTING soal "gambar":
      Sementara ini diisi ILUSTRASI BUATAN, bukan tangkapan layar karya aslimu.
@@ -178,10 +178,10 @@ const DATA = {
      Karya asli jauh lebih meyakinkan daripada ilustrasi generik.
 
      Ilustrasi yang tersedia di assets/img/:
-       cover-web.svg       — web app / website
-       cover-video-ai.svg  — video animasi AI
-       cover-web3.svg      — Web3
-       cover-android.svg   — aplikasi Android (belum terpakai, siap kalau ada
+       cover-web.svg      : web app / website
+       cover-video-ai.svg : video animasi AI
+       cover-web3.svg     : Web3
+       cover-android.svg  : aplikasi Android (belum terpakai, siap kalau ada
                              proyek Android yang mau ditampilkan)
 
      Untuk video, isi juga "link" dengan URL YouTube/Drive-nya.
@@ -194,7 +194,7 @@ const DATA = {
       tahun: "2025",                               // CEK
       peran: "Fullstack Developer",
       deskripsi: "Web app untuk lembaga kursus bahasa Inggris, dibangun dengan Flutter dan Firebase. Memudahkan peserta mengakses materi dan informasi kelas dari ponsel maupun komputer.",
-      hasil: "",                                   // ISI — hasil konkretnya apa? (mis. jumlah peserta terdaftar)
+      hasil: "",                                   // ISI: hasil konkretnya apa? (mis. jumlah peserta terdaftar)
       tags: ["Flutter", "Firebase", "Web App", "Pendidikan"],
       gambar: "assets/img/cover-web.svg",          // GANTI dengan screenshot asli situsnya
       link: "https://pratamaenglishcourse.online"
@@ -203,10 +203,10 @@ const DATA = {
       judul: "Produksi Video Animasi AI",
       kategori: "Video Animasi AI",
       klien: "",                                   // dikosongkan, tidak ditampilkan
-      tahun: "2026 — Sekarang",                    // CEK
+      tahun: "2026 - Sekarang",                    // CEK
       peran: "AI Animation Creator",
       deskripsi: "Kumpulan video animasi yang diproduksi sepenuhnya dengan bantuan AI, mulai dari penyusunan naskah dan storyboard, animasi, voice over, sampai rendering akhir.",
-      hasil: "",                                   // ISI — mis. jumlah video, total penonton
+      hasil: "",                                   // ISI: mis. jumlah video, total penonton
       tags: ["Animasi AI", "Storyboard", "Voice Over AI"],
       gambar: "assets/img/cover-video-ai.svg",     // GANTI dengan cuplikan video aslinya
       link: "https://www.tiktok.com/@aselemene_in"
@@ -214,8 +214,8 @@ const DATA = {
     {
       judul: "Kontribusi Ekosistem Web3",
       kategori: "Web3",
-      klien: "Berbagai project Web3",              // CEK — boleh disebut nama projectnya?
-      tahun: "2024 — Sekarang",                    // CEK
+      klien: "Berbagai project Web3",              // CEK: boleh disebut nama projectnya?
+      tahun: "2024 - Sekarang",                    // CEK
       peran: "Contributor",
       deskripsi: "Terlibat aktif dalam pengujian, pemberian masukan, dan kegiatan komunitas pada sejumlah project Web3.",
       hasil: "",                                   // ISI
@@ -227,15 +227,15 @@ const DATA = {
 
   /* ==========================================================================
      6. PENGALAMAN KERJA
-     CEK — periode saya susun dari lama pengalaman yang kamu sebutkan
+     CEK: periode saya susun dari lama pengalaman yang kamu sebutkan
            (2 tahun Web3, 1 tahun Android & Web, 6 bulan video AI),
            dihitung mundur dari September 2026.
      ========================================================================== */
   pengalaman: [
     {
       posisi: "Fullstack Android & Web Developer",
-      instansi: "Freelance / Proyek Mandiri",      // CEK — ada nama perusahaan/brand sendiri?
-      periode: "2025 — Sekarang",
+      instansi: "Freelance / Proyek Mandiri",      // CEK: ada nama perusahaan/brand sendiri?
+      periode: "2025 - Sekarang",
       lokasi: "Medan",
       poin: [
         "Membangun aplikasi Android dan website dengan Flutter dan Firebase, dari perancangan hingga rilis, termasuk Pratama English Course.",
@@ -246,7 +246,7 @@ const DATA = {
     {
       posisi: "AI Animation Creator",
       instansi: "Freelance / Proyek Mandiri",
-      periode: "2026 — Sekarang",
+      periode: "2026 - Sekarang",
       lokasi: "Medan",
       poin: [
         "Memproduksi video animasi berbasis AI untuk kebutuhan promosi, edukasi, dan konten media sosial.",
@@ -257,7 +257,7 @@ const DATA = {
     {
       posisi: "Kontributor Project Web3",
       instansi: "Berbagai Project Web3",
-      periode: "2024 — Sekarang",
+      periode: "2024 - Sekarang",
       lokasi: "Remote",
       poin: [
         "Berkontribusi selama 2 tahun pada sejumlah project Web3 melalui pengujian dan pemberian masukan.",
@@ -273,15 +273,15 @@ const DATA = {
     {
       posisi: "S1 Teknik Informatika",
       instansi: "Universitas Malikussaleh",
-      periode: "2022 — 2026",
+      periode: "2022 - 2026",
       lokasi: "Lhokseumawe, Aceh",
-      poin: []                                     // ISI — opsional: IPK, judul skripsi, prestasi
+      poin: []                                     // ISI: opsional: IPK, judul skripsi, prestasi
     }
   ],
 
   /* ==========================================================================
      8. SERTIFIKASI
-     Dikosongkan karena belum ada datanya — section-nya otomatis tersembunyi.
+     Dikosongkan karena belum ada datanya: section-nya otomatis tersembunyi.
      Kalau punya sertifikat (Dicoding, Coursera, Google, bootcamp, seminar),
      hapus tanda // pada baris contoh di bawah lalu isi datanya.
      ========================================================================== */
@@ -291,8 +291,8 @@ const DATA = {
 
   /* ==========================================================================
      9. TESTIMONI
-     Dikosongkan karena belum ada datanya — section-nya otomatis tersembunyi.
-     SARAN: minta 2–3 kalimat dari klien Pratama English Course atau dari klien
+     Dikosongkan karena belum ada datanya: section-nya otomatis tersembunyi.
+     SARAN: minta 2-3 kalimat dari klien Pratama English Course atau dari klien
      video animasimu. Ini elemen paling meyakinkan untuk calon klien.
      ========================================================================== */
   testimoni: [
@@ -303,12 +303,12 @@ const DATA = {
      10. KONTAK & MEDIA SOSIAL
      ========================================================================== */
   kontak: {
-    ajakan:   "Punya kebutuhan aplikasi, website, atau video animasi? Ceritakan saja dulu — saya biasanya membalas dalam 1×24 jam.",
+    ajakan:   "Punya kebutuhan aplikasi, website, atau video animasi? Ceritakan saja dulu. Saya biasanya membalas dalam 1×24 jam.",
     email:    "farhanyusri2013@gmail.com",
     whatsapp: "6285156885373",
     lokasi:   "Medan, Sumatera Utara",
 
-    // ISI — simpan CV PDF di assets/docs/ lalu tulis path-nya di sini.
+    // ISI: simpan CV PDF di assets/docs/ lalu tulis path-nya di sini.
     // Contoh: "assets/docs/CV-Farhan-Yusri.pdf"
     // Selama kosong, tombol Download CV tidak ditampilkan.
     cv:       "",
@@ -318,7 +318,7 @@ const DATA = {
       { nama: "WhatsApp",        url: "https://wa.me/6285156885373",            ikon: "whatsapp" },
       { nama: "TikTok Animasi",  url: "https://www.tiktok.com/@aselemene_in",   ikon: "tiktok" },
       { nama: "X (Web3)",        url: "https://x.com/0xHannyusri",              ikon: "x" }
-      // ISI — buka komentar di bawah dan isi username kalau akunnya ada.
+      // ISI: buka komentar di bawah dan isi username kalau akunnya ada.
       // GitHub penting untuk melamar kerja sebagai developer.
       // , { nama: "GitHub",    url: "https://github.com/USERNAME",       ikon: "github" }
       // , { nama: "LinkedIn",  url: "https://linkedin.com/in/USERNAME",  ikon: "linkedin" }

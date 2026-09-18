@@ -1,5 +1,5 @@
 /* ============================================================================
-   MAIN — render konten dari data.js + semua interaksi
+   MAIN: render konten dari data.js + semua interaksi
    Tidak perlu diedit untuk mengganti isi website. Cukup ubah js/data.js.
    ============================================================================ */
 (function () {
@@ -48,7 +48,7 @@
     return ICONS[String(key || "").toLowerCase()] || ICONS.link;
   }
 
-  /* Ikon bidang keahlian & layanan — dipilih lewat properti "ikon" di data.js */
+  /* Ikon bidang keahlian & layanan: dipilih lewat properti "ikon" di data.js */
   var TECH = {
     android:  '<svg viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>',
     web:      '<svg viewBox="0 0 24 24"><rect x="2.5" y="4" width="19" height="16" rx="2.5"/><path d="M2.5 9h19M5.8 6.5h.01M8.4 6.5h.01"/></svg>',
@@ -84,7 +84,7 @@
   /* ---- Judul halaman & navbar ---- */
   var peran = list(profil.peran);
   if (has(profil.nama)) {
-    document.title = profil.nama + (peran[0] ? " — " + peran[0] : " — Profil Profesional");
+    document.title = profil.nama + (peran[0] ? " | " + peran[0] : " | Profil Profesional");
     $("#navName").textContent   = profil.nama;
     $("#footerName").textContent = profil.nama;
   }
@@ -92,7 +92,7 @@
 
   /* ---- HERO ---- */
   if (has(profil.lokasi)) {
-    $("#heroLocation").textContent = "Tersedia untuk proyek — " + profil.lokasi;
+    $("#heroLocation").textContent = "Tersedia untuk proyek di " + profil.lokasi;
   } else {
     $("#heroLocation").remove();
   }
@@ -592,8 +592,8 @@
         note.textContent = "Alamat email tujuan belum diisi di js/data.js.";
         return;
       }
-      var subject = "Pesan dari website — " + payload.name;
-      var body    = payload.message + "\n\n—\n" + payload.name + "\n" + payload.email;
+      var subject = "Pesan dari website: " + payload.name;
+      var body    = payload.message + "\n\n--\n" + payload.name + "\n" + payload.email;
       window.location.href = "mailto:" + kontak.email +
         "?subject=" + encodeURIComponent(subject) +
         "&body=" + encodeURIComponent(body);
@@ -674,7 +674,7 @@
   }
 
   /* ---- 3. Kartu miring 3D mengikuti kursor + pantulan cahaya ---- */
-  /* Hanya gambar yang dimiringkan. Baris teks tidak dimiringkan — memiringkan
+  /* Hanya gambar yang dimiringkan. Baris teks tidak dimiringkan: memiringkan
      teks membuatnya sulit dibaca dan justru terasa seperti efek tempelan. */
   if (finePointer && !reduceMotion) {
     $$(".portrait, .work__thumb").forEach(function (card) {
@@ -702,7 +702,7 @@
       card.addEventListener("pointerenter", function () {
         rect = card.getBoundingClientRect();
         /* transisi bawaan kartu 0,3 detik membuat kemiringan tertinggal dari
-           kursor — dipersingkat selama tilt aktif, lalu dikembalikan saat lepas
+           kursor: dipersingkat selama tilt aktif, lalu dikembalikan saat lepas
            supaya gerak pulangnya tetap halus */
         card.style.transition = "transform .08s linear, box-shadow .3s ease";
       });

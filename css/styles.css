@@ -1,11 +1,11 @@
 /* ============================================================================
-   STYLES — Profil Farhan Yusri
+   STYLES: Profil Farhan Yusri
    Ubah warna & tipografi lewat variabel di blok :root di bawah ini.
    ============================================================================ */
 
 /* ---------------------------------------------------------------- TOKENS -- */
 :root {
-  /* Warna aksen — ganti dua nilai ini untuk mengubah nuansa seluruh website */
+  /* Warna aksen: ganti dua nilai ini untuk mengubah nuansa seluruh website */
   --accent:        #2563EB;   /* biru teknis */
   --accent-2:      #06B6D4;   /* sian, untuk aksen kedua */
   --accent-soft:   #EFF6FF;
@@ -22,7 +22,7 @@
   --shadow:        0 1px 2px rgba(15,23,42,.04), 0 8px 24px rgba(15,23,42,.06);
   --shadow-lift:   0 2px 4px rgba(15,23,42,.05), 0 18px 40px rgba(15,23,42,.12);
 
-  /* Tipografi — font bawaan sistem. Tidak perlu unduh dari internet,
+  /* Tipografi: font bawaan sistem. Tidak perlu unduh dari internet,
      halaman terbuka lebih cepat dan tampilannya wajar seperti dokumen biasa. */
   --font-sans:     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
                    "Helvetica Neue", Arial, sans-serif;
@@ -153,7 +153,7 @@ button { font: inherit; color: inherit; }
 
 .nav__brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 600; }
 
-/* Logo — dua jalur bertemu jadi satu (huruf Y / simpul jaringan) */
+/* Logo: dua jalur bertemu jadi satu (huruf Y / simpul jaringan) */
 .nav__logo { display: block; flex: none; }
 .nav__logo svg {
   display: block;
@@ -267,7 +267,7 @@ button { font: inherit; color: inherit; }
   pointer-events: none;
   z-index: 0;
 }
-/* Tekstur grid tipis — memberi kesan teknis, memudar ke bawah */
+/* Tekstur grid tipis: memberi kesan teknis, memudar ke bawah */
 .hero::after {
   content: "";
   position: absolute;
@@ -321,7 +321,7 @@ button { font: inherit; color: inherit; }
   margin-bottom: 14px;
 }
 
-/* Profesi berputar — label monospace, seperti baris terminal.
+/* Profesi berputar: label monospace, seperti baris terminal.
    Sengaja block, bukan flex: kalau flex, tanda ">" jadi item tersendiri dan
    terlihat menggantung terpisah saat teksnya membungkus di layar sempit. */
 .hero__role {
@@ -577,7 +577,7 @@ button { font: inherit; color: inherit; }
 }
 .spec__key h3 { font-size: 16px; }
 
-/* Teks mengalir biasa, bukan flex — supaya titik pemisah ikut berpindah baris
+/* Teks mengalir biasa, bukan flex: supaya titik pemisah ikut berpindah baris
    bersama katanya, tidak menggantung sendirian di awal baris. */
 .spec__val {
   font-family: var(--font-mono);
@@ -688,7 +688,7 @@ button { font: inherit; color: inherit; }
 .work.is-hidden { display: none; }
 
 /* Karya pertama tampil besar melebar penuh, gambar di kiri teks di kanan.
-   Ini yang memberi hierarki — mata tahu harus melihat ke mana lebih dulu. */
+   Ini yang memberi hierarki: mata tahu harus melihat ke mana lebih dulu. */
 .work--feature {
   grid-column: 1 / -1;
   display: grid;
@@ -988,7 +988,7 @@ button { font: inherit; color: inherit; }
   color: var(--ink-2);
   margin-bottom: 7px;
 }
-/* Kolom isian bergaris bawah saja — tanpa kotak berbingkai */
+/* Kolom isian bergaris bawah saja: tanpa kotak berbingkai */
 .field input,
 .field textarea {
   width: 100%;
@@ -1078,7 +1078,7 @@ button { font: inherit; color: inherit; }
   transition: opacity .7s var(--ease), transform .7s var(--ease);
 }
 .reveal.is-in { opacity: 1; transform: none; }
-/* Varian tanpa geser — dipakai pada elemen yang transform-nya diatur parallax */
+/* Varian tanpa geser: dipakai pada elemen yang transform-nya diatur parallax */
 .reveal--fade { transform: none; }
 
 /* ============================================================================
@@ -1125,7 +1125,7 @@ button { font: inherit; color: inherit; }
 }
 .tilt:hover > .glare { opacity: 1; }
 
-/* Tilt hanya pada gambar — .portrait dan .work__thumb sudah punya
+/* Tilt hanya pada gambar: .portrait dan .work__thumb sudah punya
    position: relative dan overflow: hidden, jadi pantulan cahaya terpotong rapi. */
 
 /* --- Strip berjalan ------------------------------------------------------ */
@@ -1245,7 +1245,7 @@ button { font: inherit; color: inherit; }
   .glare { display: none; }
 }
 
-/* Efek pointer hanya untuk perangkat bermouse — di layar sentuh tidak berguna */
+/* Efek pointer hanya untuk perangkat bermouse: di layar sentuh tidak berguna */
 @media (hover: none), (pointer: coarse) {
   .glare { display: none; }
 
