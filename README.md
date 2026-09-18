@@ -1,5 +1,7 @@
 # Website Profil — Farhan Yusri
 
+**Live:** https://hannyusri.github.io
+
 Website profil satu halaman untuk promosi ke klien sekaligus lampiran CV saat melamar kerja.
 Dibuat dengan HTML, CSS, dan JavaScript murni — tanpa framework, tanpa proses build, tanpa install apa pun.
 
