@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ============================================================
+     SEO & SOCIAL SHARING
+     Bagian ini yang muncul saat link di-share ke WhatsApp/LinkedIn.
+     GANTI sesuai data asli.
+     ============================================================ -->
+<title>Farhan Yusri — Fullstack Android &amp; Web Developer</title>
+<meta name="description" content="Farhan Yusri, Fullstack Android &amp; Web Developer asal Medan. Membangun aplikasi Android, website, dan video animasi AI untuk bisnis dan brand. Membersamai dengan solusi.">
+<meta name="author" content="Farhan Yusri">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Farhan Yusri — Fullstack Android &amp; Web Developer">
+<meta property="og:description" content="Membangun aplikasi Android, website, dan video animasi AI untuk bisnis dan brand. Membersamai dengan solusi.">
+<meta property="og:locale" content="id_ID">
+<!-- Aktifkan setelah punya domain, supaya link yang di-share menampilkan foto:
+<meta property="og:image" content="https://domainkamu.com/assets/img/foto-profil.jpg">
+<meta property="og:url" content="https://domainkamu.com"> -->
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+<link rel="stylesheet" href="css/styles.css">
+
+<!-- Tema default selalu TERANG. Mode gelap tetap tersedia lewat tombol di navbar
+     dan pilihan pengunjung tersimpan di browsernya. -->
+<script>
+(function () {
+  try {
+    document.documentElement.setAttribute('data-theme', localStorage.getItem('fy-theme') || 'light');
+  } catch (e) {}
+})();
+</script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+<!-- =================== NAVBAR =================== -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="#beranda" class="nav__brand" data-scroll>
+      <!-- Logo ditulis langsung di sini (bukan <img>) supaya warnanya bisa
+           ikut berubah saat tema terang/gelap diganti.
+           Untuk menghilangkan logo, hapus seluruh blok <span class="nav__logo"> ini. -->
+      <span class="nav__logo" aria-hidden="true">
+        <svg viewBox="0 0 48 48">
+          <path class="logo__line"                d="M12 11.5L24 25"/>
+          <path class="logo__line logo__line--2"  d="M36 11.5L24 25"/>
+          <path class="logo__line"                d="M24 25V36"/>
+          <circle class="logo__dot"               cx="12" cy="11.5" r="4.2"/>
+          <circle class="logo__dot logo__dot--2"  cx="36" cy="11.5" r="4.2"/>
+          <circle class="logo__dot"               cx="24" cy="36"   r="4.2"/>
+        </svg>
+      </span>
+      <span class="nav__name" id="navName">Farhan Yusri</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Navigasi utama">
+      <a href="#tentang"    data-scroll>Tentang</a>
+      <a href="#keahlian"   data-scroll>Keahlian</a>
+      <a href="#layanan"    data-scroll>Layanan</a>
+      <a href="#karya"      data-scroll>Karya</a>
+      <a href="#perjalanan" data-scroll>Perjalanan</a>
+      <a href="#testimoni"  data-scroll>Testimoni</a>
+      <a href="#kontak" class="nav__cta" data-scroll>Hubungi</a>
+    </nav>
+
+    <div class="nav__tools">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Ganti tema terang/gelap" title="Ganti tema">
+        <svg class="ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+        <svg class="ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.2A8.2 8.2 0 0 1 9.8 4a8.4 8.4 0 1 0 10.2 10.2z"/></svg>
+      </button>
+      <button class="icon-btn nav__burger" id="navToggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- =================== HERO =================== -->
+  <section class="hero" id="beranda">
+    <canvas class="hero__canvas" id="heroCanvas" aria-hidden="true"></canvas>
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="hero__eyebrow reveal" id="heroLocation"></p>
+        <h1 class="hero__title reveal" id="heroName"></h1>
+        <p class="hero__role reveal">
+          <span id="heroRole" class="rotator"></span><span class="caret" aria-hidden="true"></span>
+        </p>
+        <p class="hero__moto reveal" id="heroMoto"></p>
+        <p class="hero__tagline reveal" id="heroTagline"></p>
+        <div class="hero__actions reveal" id="heroActions"></div>
+        <ul class="hero__stats reveal" id="heroStats"></ul>
+      </div>
+      <div class="hero__media reveal reveal--fade">
+        <div class="portrait" id="heroPortrait"></div>
+      </div>
+    </div>
+    <a class="hero__scroll" href="#tentang" data-scroll aria-label="Gulir ke bawah"><span></span></a>
+  </section>
+
+  <!-- =================== TENTANG =================== -->
+  <section class="section" id="tentang">
+    <div class="container">
+      <header class="section__head reveal">
+        <span class="section__num">01</span>
+        <h2 class="section__title">Tentang Saya</h2>
+      </header>
+      <div class="about">
+        <div class="about__bio reveal" id="aboutBio"></div>
+        <aside class="about__facts reveal" id="aboutFacts"></aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== KEAHLIAN =================== -->
+  <section class="section section--alt" id="keahlian">
+    <div class="container">
+      <header class="section__head reveal">
+        <span class="section__num">02</span>
+        <h2 class="section__title">Keahlian</h2>
+        <p class="section__sub">Kemampuan dan tools yang saya gunakan sehari-hari.</p>
+      </header>
+      <div class="spec" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <!-- =================== STRIP BERJALAN =================== -->
+  <div class="marquee" id="marquee" aria-hidden="true"></div>
+
+  <!-- =================== LAYANAN =================== -->
+  <section class="section" id="layanan">
+    <div class="container">
+      <header class="section__head reveal">
+        <span class="section__num">03</span>
+        <h2 class="section__title">Layanan</h2>
+        <p class="section__sub">Apa yang bisa saya kerjakan untuk Anda.</p>
+      </header>
+      <div class="offer" id="servicesGrid"></div>
+    </div>
+  </section>
+
+  <!-- =================== KARYA =================== -->
+  <section class="section section--alt" id="karya">
+    <div class="container">
+      <header class="section__head reveal">
+        <span class="section__num">04</span>
+        <h2 class="section__title">Karya Terpilih</h2>
+        <p class="section__sub">Beberapa proyek yang pernah saya kerjakan.</p>
+      </header>
+      <div class="filters reveal" id="workFilters" role="group" aria-label="Filter kategori karya"></div>
+      <div class="works" id="worksGrid"></div>
+      <p class="works__empty" id="worksEmpty" hidden>Belum ada karya pada kategori ini.</p>
+    </div>
+  </section>
+
+  <!-- =================== PERJALANAN =================== -->
+  <section class="section" id="perjalanan">
+    <div class="container">
+      <header class="section__head reveal">
+        <span class="section__num">05</span>
+        <h2 class="section__title">Perjalanan</h2>
+        <p class="section__sub">Pengalaman kerja, pendidikan, dan sertifikasi.</p>
+      </header>
+      <div class="journey">
+        <div class="journey__col">
+          <h3 class="journey__label reveal">Pengalaman</h3>
+          <ol class="timeline" id="experienceList"></ol>
+        </div>
+        <div class="journey__col">
+          <h3 class="journey__label reveal">Pendidikan</h3>
+          <ol class="timeline" id="educationList"></ol>
+          <h3 class="journey__label journey__label--gap reveal" id="certLabel">Sertifikasi</h3>
+          <ul class="certs" id="certList"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== TESTIMONI =================== -->
+  <section class="section section--alt" id="testimoni">
+    <div class="container">
+      <header class="section__head reveal">
+        <span class="section__num">06</span>
+        <h2 class="section__title">Kata Mereka</h2>
+      </header>
+      <div class="quotes" id="quotesGrid"></div>
+    </div>
+  </section>
+
+  <!-- =================== KONTAK =================== -->
+  <section class="section section--contact" id="kontak">
+    <div class="container">
+      <header class="section__head reveal">
+        <span class="section__num">07</span>
+        <h2 class="section__title" id="contactTitle">Mari Bekerja Sama</h2>
+        <p class="section__sub" id="contactSub"></p>
+      </header>
+      <div class="contact">
+        <div class="contact__info reveal" id="contactInfo"></div>
+        <form class="contact__form reveal" id="contactForm" novalidate>
+          <div class="field">
+            <label for="cfName">Nama</label>
+            <input type="text" id="cfName" name="name" required autocomplete="name" placeholder="Nama lengkap Anda">
+            <small class="field__error" data-for="cfName"></small>
+          </div>
+          <div class="field">
+            <label for="cfEmail">Email</label>
+            <input type="email" id="cfEmail" name="email" required autocomplete="email" placeholder="nama@email.com">
+            <small class="field__error" data-for="cfEmail"></small>
+          </div>
+          <div class="field">
+            <label for="cfMessage">Pesan</label>
+            <textarea id="cfMessage" name="message" rows="5" required placeholder="Ceritakan kebutuhan atau proyek Anda..."></textarea>
+            <small class="field__error" data-for="cfMessage"></small>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block" id="cfSubmit">Kirim Pesan</button>
+          <p class="form__note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p class="footer__copy">
+      <span class="nav__logo footer__logo" aria-hidden="true">
+        <svg viewBox="0 0 48 48">
+          <path class="logo__line"                d="M12 11.5L24 25"/>
+          <path class="logo__line logo__line--2"  d="M36 11.5L24 25"/>
+          <path class="logo__line"                d="M24 25V36"/>
+          <circle class="logo__dot"               cx="12" cy="11.5" r="4.2"/>
+          <circle class="logo__dot logo__dot--2"  cx="36" cy="11.5" r="4.2"/>
+          <circle class="logo__dot"               cx="24" cy="36"   r="4.2"/>
+        </svg>
+      </span>
+      &copy; <span id="year"></span> <span id="footerName"></span>. Seluruh hak cipta dilindungi.
+    </p>
+    <div class="footer__social" id="footerSocial"></div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Kembali ke atas">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

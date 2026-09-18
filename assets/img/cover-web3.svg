@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Ilustrasi kontribusi ekosistem Web3">
+  <defs>
+    <linearGradient id="w3-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EFF6FF"/><stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <pattern id="w3-grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0v50" fill="none" stroke="#2563EB" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#w3-bg)"/>
+  <rect width="1200" height="750" fill="url(#w3-grid)"/>
+
+  <!-- jaringan simpul -->
+  <g stroke="#2563EB" stroke-opacity=".3" stroke-width="3">
+    <path d="M600 375L286 214M600 375l314-161M600 375L286 536M600 375l314 161M600 375V126M600 375v249"/>
+    <path d="M286 214L600 126l314 88M286 536L600 624l314-88M286 214v322M914 214v322" stroke-opacity=".16"/>
+  </g>
+
+  <!-- blok berantai -->
+  <g>
+    <rect x="516" y="291" width="168" height="168" rx="24" fill="#2563EB"/>
+    <path d="M600 330l38 22v44l-38 22-38-22v-44z" fill="#fff" fill-opacity=".9"/>
+    <path d="M600 330v88M562 352l38 22 38-22" stroke="#2563EB" stroke-width="3.5" fill="none" stroke-linejoin="round"/>
+  </g>
+
+  <g fill="#fff" stroke="#BFDBFE" stroke-width="2.5">
+    <rect x="228" y="156" width="116" height="116" rx="20"/>
+    <rect x="856" y="156" width="116" height="116" rx="20"/>
+    <rect x="228" y="478" width="116" height="116" rx="20"/>
+    <rect x="856" y="478" width="116" height="116" rx="20"/>
+    <rect x="542" y="68" width="116" height="116" rx="20"/>
+    <rect x="542" y="566" width="116" height="116" rx="20"/>
+  </g>
+
+  <g fill="#2563EB" fill-opacity=".8">
+    <path d="M286 190l26 15v30l-26 15-26-15v-30z"/>
+    <path d="M914 190l26 15v30l-26 15-26-15v-30z"/>
+  </g>
+  <g fill="#06B6D4" fill-opacity=".85">
+    <path d="M286 512l26 15v30l-26 15-26-15v-30z"/>
+    <path d="M914 512l26 15v30l-26 15-26-15v-30z"/>
+  </g>
+  <g fill="#0F172A" fill-opacity=".55">
+    <path d="M600 102l26 15v30l-26 15-26-15v-30z"/>
+    <path d="M600 600l26 15v30l-26 15-26-15v-30z"/>
+  </g>
+
+  <!-- panel aktivitas -->
+  <g>
+    <rect x="76" y="620" width="252" height="92" rx="14" fill="#fff" stroke="#DBEAFE" stroke-width="2"/>
+    <circle cx="108" cy="652" r="10" fill="#34D399"/>
+    <rect x="130" y="646" width="120" height="9" rx="4.5" fill="#CBD5E1"/>
+    <rect x="130" y="664" width="76" height="8" rx="4" fill="#E2E8F0"/>
+    <rect x="100" y="686" width="204" height="8" rx="4" fill="#EFF6FF"/>
+  </g>
+  <g>
+    <rect x="872" y="38" width="252" height="92" rx="14" fill="#fff" stroke="#DBEAFE" stroke-width="2"/>
+    <circle cx="904" cy="70" r="10" fill="#2563EB"/>
+    <rect x="926" y="64" width="96" height="9" rx="4.5" fill="#CBD5E1"/>
+    <rect x="926" y="82" width="140" height="8" rx="4" fill="#E2E8F0"/>
+    <rect x="896" y="104" width="204" height="8" rx="4" fill="#EFF6FF"/>
+  </g>
+</svg>

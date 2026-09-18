@@ -1,0 +1,16 @@
+# File bawaan sistem operasi
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+
+# Folder konfigurasi editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# File sementara
+*.log
+*.tmp
+*.bak
+~$*

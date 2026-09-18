@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Logo Farhan Yusri">
+  <title>Farhan Yusri</title>
+  <!-- Dua jalur bertemu jadi satu: huruf Y, simpul jaringan, dan makna
+       "membersamai dengan solusi". -->
+  <g fill="none" stroke-width="4.2" stroke-linecap="round">
+    <path d="M12 11.5L24 25" stroke="#2563EB"/>
+    <path d="M36 11.5L24 25" stroke="#06B6D4"/>
+    <path d="M24 25V36"      stroke="#2563EB"/>
+  </g>
+  <circle cx="12" cy="11.5" r="4.2" fill="#2563EB"/>
+  <circle cx="36" cy="11.5" r="4.2" fill="#06B6D4"/>
+  <circle cx="24" cy="36"   r="4.2" fill="#2563EB"/>
+</svg>

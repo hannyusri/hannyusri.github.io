@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Farhan Yusri">
+  <title>Farhan Yusri</title>
+  <rect width="100" height="100" rx="23" fill="#2563EB"/>
+  <!-- Versi tebal tanpa lingkaran terpisah: ujung garis yang membulat sudah
+       terbaca sebagai simpul, sehingga tetap jelas pada ukuran 16 piksel. -->
+  <g fill="none" stroke-linecap="round" stroke-width="10">
+    <path d="M30 28L50 53" stroke="#FFFFFF"/>
+    <path d="M70 28L50 53" stroke="#A5F3FC"/>
+    <path d="M50 53V72"    stroke="#FFFFFF"/>
+  </g>
+</svg>

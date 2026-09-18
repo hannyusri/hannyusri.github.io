@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Ilustrasi pengembangan aplikasi Android">
+  <defs>
+    <linearGradient id="a-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EFF6FF"/><stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <pattern id="a-grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0v50" fill="none" stroke="#2563EB" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <clipPath id="a-screen"><rect x="482" y="117" width="236" height="516" rx="24"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#a-bg)"/>
+  <rect width="1200" height="750" fill="url(#a-grid)"/>
+
+  <!-- kartu melayang kiri -->
+  <g opacity=".95">
+    <rect x="150" y="215" width="230" height="130" rx="16" fill="#fff" stroke="#DBEAFE"/>
+    <rect x="174" y="243" width="34" height="34" rx="9" fill="#2563EB"/>
+    <rect x="222" y="249" width="120" height="9" rx="4.5" fill="#CBD5E1"/>
+    <rect x="222" y="267" width="76" height="9" rx="4.5" fill="#E2E8F0"/>
+    <rect x="174" y="298" width="182" height="8" rx="4" fill="#EFF6FF"/>
+    <rect x="174" y="316" width="128" height="8" rx="4" fill="#EFF6FF"/>
+  </g>
+
+  <!-- kartu melayang kanan -->
+  <g opacity=".95">
+    <rect x="820" y="400" width="230" height="150" rx="16" fill="#fff" stroke="#DBEAFE"/>
+    <rect x="844" y="428" width="96" height="9" rx="4.5" fill="#CBD5E1"/>
+    <g fill="#06B6D4">
+      <rect x="844" y="470" width="26" height="52" rx="5"/>
+      <rect x="882" y="490" width="26" height="32" rx="5" opacity=".7"/>
+      <rect x="920" y="454" width="26" height="68" rx="5" opacity=".85"/>
+      <rect x="958" y="482" width="26" height="40" rx="5" opacity=".55"/>
+      <rect x="996" y="464" width="26" height="58" rx="5" opacity=".75"/>
+    </g>
+  </g>
+
+  <!-- ponsel -->
+  <rect x="470" y="105" width="260" height="540" rx="34" fill="#0F172A"/>
+  <g clip-path="url(#a-screen)">
+    <rect x="482" y="117" width="236" height="516" fill="#fff"/>
+    <rect x="482" y="117" width="236" height="88" fill="#2563EB"/>
+    <rect x="504" y="160" width="104" height="11" rx="5.5" fill="#fff" fill-opacity=".95"/>
+    <rect x="504" y="179" width="62" height="8" rx="4" fill="#fff" fill-opacity=".55"/>
+    <circle cx="694" cy="170" r="11" fill="#fff" fill-opacity=".25"/>
+
+    <g>
+      <rect x="502" y="229" width="196" height="68" rx="12" fill="#F1F5F9"/>
+      <rect x="518" y="247" width="32" height="32" rx="9" fill="#2563EB"/>
+      <rect x="564" y="252" width="104" height="9" rx="4.5" fill="#CBD5E1"/>
+      <rect x="564" y="269" width="64" height="8" rx="4" fill="#E2E8F0"/>
+    </g>
+    <g>
+      <rect x="502" y="311" width="196" height="68" rx="12" fill="#F1F5F9"/>
+      <rect x="518" y="329" width="32" height="32" rx="9" fill="#06B6D4"/>
+      <rect x="564" y="334" width="88" height="9" rx="4.5" fill="#CBD5E1"/>
+      <rect x="564" y="351" width="110" height="8" rx="4" fill="#E2E8F0"/>
+    </g>
+    <g>
+      <rect x="502" y="393" width="196" height="68" rx="12" fill="#F1F5F9"/>
+      <rect x="518" y="411" width="32" height="32" rx="9" fill="#2563EB" fill-opacity=".55"/>
+      <rect x="564" y="416" width="118" height="9" rx="4.5" fill="#CBD5E1"/>
+      <rect x="564" y="433" width="72" height="8" rx="4" fill="#E2E8F0"/>
+    </g>
+
+    <rect x="482" y="573" width="236" height="60" fill="#F8FAFC"/>
+    <g fill="#CBD5E1">
+      <circle cx="530" cy="603" r="9"/><circle cx="600" cy="603" r="9"/><circle cx="670" cy="603" r="9"/>
+    </g>
+    <circle cx="530" cy="603" r="9" fill="#2563EB"/>
+  </g>
+  <rect x="566" y="126" width="68" height="9" rx="4.5" fill="#0F172A"/>
+
+  <!-- tombol aksi -->
+  <circle cx="686" cy="586" r="27" fill="#06B6D4"/>
+  <path d="M686 574v24M674 586h24" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/>
+</svg>

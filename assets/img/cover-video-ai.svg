@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Ilustrasi produksi video animasi AI">
+  <defs>
+    <linearGradient id="v-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EFF6FF"/><stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <pattern id="v-grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0v50" fill="none" stroke="#2563EB" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="v-screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E3A8A"/><stop offset="1" stop-color="#0E7490"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#v-bg)"/>
+  <rect width="1200" height="750" fill="url(#v-grid)"/>
+
+  <!-- pemutar video -->
+  <rect x="215" y="130" width="770" height="410" rx="20" fill="#fff" stroke="#DBEAFE" stroke-width="2"/>
+  <rect x="239" y="154" width="722" height="330" rx="12" fill="url(#v-screen)"/>
+
+  <!-- adegan animasi di dalam layar -->
+  <g opacity=".5">
+    <path d="M239 404l120-86 96 62 118-112 130 104 96-64 162 100v60H239z" fill="#38BDF8" fill-opacity=".45"/>
+    <path d="M239 440l150-64 120 46 140-70 160 74 152-52v110H239z" fill="#0EA5E9" fill-opacity=".5"/>
+  </g>
+  <circle cx="860" cy="226" r="34" fill="#FDE68A" fill-opacity=".85"/>
+  <g fill="#fff" fill-opacity=".85">
+    <circle cx="352" cy="214" r="4"/><circle cx="430" cy="188" r="3"/><circle cx="520" cy="230" r="3.5"/>
+    <circle cx="640" cy="192" r="3"/><circle cx="714" cy="236" r="4"/>
+  </g>
+
+  <!-- tombol putar -->
+  <circle cx="600" cy="319" r="56" fill="#fff" fill-opacity=".16"/>
+  <circle cx="600" cy="319" r="42" fill="#fff"/>
+  <path d="M588 297l32 22-32 22z" fill="#2563EB"/>
+
+  <!-- bilah waktu -->
+  <rect x="239" y="506" width="722" height="8" rx="4" fill="#E2E8F0"/>
+  <rect x="239" y="506" width="430" height="8" rx="4" fill="#2563EB"/>
+  <circle cx="669" cy="510" r="11" fill="#2563EB" stroke="#fff" stroke-width="3"/>
+
+  <!-- potongan klip -->
+  <g>
+    <rect x="215" y="580" width="176" height="104" rx="12" fill="#fff" stroke="#DBEAFE" stroke-width="2"/>
+    <rect x="231" y="596" width="144" height="60" rx="8" fill="#BFDBFE"/>
+    <rect x="231" y="664" width="76" height="8" rx="4" fill="#E2E8F0"/>
+  </g>
+  <g>
+    <rect x="413" y="580" width="176" height="104" rx="12" fill="#fff" stroke="#DBEAFE" stroke-width="2"/>
+    <rect x="429" y="596" width="144" height="60" rx="8" fill="#A5F3FC"/>
+    <rect x="429" y="664" width="98" height="8" rx="4" fill="#E2E8F0"/>
+  </g>
+  <g>
+    <rect x="611" y="580" width="176" height="104" rx="12" fill="#fff" stroke="#DBEAFE" stroke-width="2"/>
+    <rect x="627" y="596" width="144" height="60" rx="8" fill="#BFDBFE"/>
+    <rect x="627" y="664" width="62" height="8" rx="4" fill="#E2E8F0"/>
+  </g>
+  <g>
+    <rect x="809" y="580" width="176" height="104" rx="12" fill="#fff" stroke="#DBEAFE" stroke-width="2" stroke-dasharray="8 8"/>
+    <path d="M897 608v48M873 632h48" stroke="#93C5FD" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- penanda AI -->
+  <g>
+    <rect x="1010" y="175" width="146" height="54" rx="27" fill="#fff" stroke="#DBEAFE" stroke-width="2"/>
+    <path d="M1046 186l7 14 14 7-14 7-7 14-7-14-14-7 14-7z" fill="#06B6D4"/>
+    <text x="1082" y="210" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#0F172A">AI</text>
+  </g>
+  <g fill="#06B6D4">
+    <path d="M1038 320l5.5 11 11 5.5-11 5.5-5.5 11-5.5-11-11-5.5 11-5.5z"/>
+    <path d="M1108 268l4 8 8 4-8 4-4 8-4-8-8-4 8-4z" opacity=".65"/>
+  </g>
+</svg>

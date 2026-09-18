@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Ilustrasi pengembangan website">
+  <defs>
+    <linearGradient id="w-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EFF6FF"/><stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <pattern id="w-grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0v50" fill="none" stroke="#2563EB" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <clipPath id="w-body"><rect x="150" y="205" width="790" height="400"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#w-bg)"/>
+  <rect width="1200" height="750" fill="url(#w-grid)"/>
+
+  <!-- jendela browser -->
+  <rect x="150" y="145" width="790" height="460" rx="18" fill="#fff" stroke="#DBEAFE" stroke-width="2"/>
+  <path d="M150 163a18 18 0 0 1 18-18h754a18 18 0 0 1 18 18v42H150z" fill="#F8FAFC"/>
+  <g>
+    <circle cx="184" cy="175" r="7" fill="#F87171"/>
+    <circle cx="208" cy="175" r="7" fill="#FBBF24"/>
+    <circle cx="232" cy="175" r="7" fill="#34D399"/>
+  </g>
+  <rect x="262" y="163" width="420" height="24" rx="12" fill="#E2E8F0"/>
+  <rect x="280" y="171" width="140" height="8" rx="4" fill="#94A3B8"/>
+  <path d="M150 205h790" stroke="#E2E8F0" stroke-width="2"/>
+
+  <g clip-path="url(#w-body)">
+    <!-- hero situs -->
+    <rect x="182" y="237" width="300" height="16" rx="8" fill="#0F172A"/>
+    <rect x="182" y="265" width="220" height="12" rx="6" fill="#CBD5E1"/>
+    <rect x="182" y="289" width="260" height="12" rx="6" fill="#E2E8F0"/>
+    <rect x="182" y="325" width="118" height="36" rx="10" fill="#2563EB"/>
+    <rect x="314" y="325" width="118" height="36" rx="10" fill="#fff" stroke="#CBD5E1" stroke-width="2"/>
+
+    <rect x="560" y="237" width="340" height="180" rx="14" fill="#EFF6FF" stroke="#DBEAFE" stroke-width="2"/>
+    <circle cx="640" cy="300" r="26" fill="#2563EB" fill-opacity=".25"/>
+    <path d="M592 380l56-52 42 38 48-56 84 70z" fill="#2563EB" fill-opacity=".35"/>
+
+    <!-- kartu grid -->
+    <g>
+      <rect x="182" y="405" width="226" height="150" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+      <rect x="206" y="429" width="36" height="36" rx="10" fill="#2563EB"/>
+      <rect x="206" y="483" width="150" height="10" rx="5" fill="#CBD5E1"/>
+      <rect x="206" y="505" width="178" height="8" rx="4" fill="#E2E8F0"/>
+      <rect x="206" y="523" width="120" height="8" rx="4" fill="#E2E8F0"/>
+    </g>
+    <g>
+      <rect x="432" y="405" width="226" height="150" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+      <rect x="456" y="429" width="36" height="36" rx="10" fill="#06B6D4"/>
+      <rect x="456" y="483" width="122" height="10" rx="5" fill="#CBD5E1"/>
+      <rect x="456" y="505" width="178" height="8" rx="4" fill="#E2E8F0"/>
+      <rect x="456" y="523" width="146" height="8" rx="4" fill="#E2E8F0"/>
+    </g>
+    <g>
+      <rect x="682" y="405" width="226" height="150" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+      <rect x="706" y="429" width="36" height="36" rx="10" fill="#2563EB" fill-opacity=".55"/>
+      <rect x="706" y="483" width="160" height="10" rx="5" fill="#CBD5E1"/>
+      <rect x="706" y="505" width="178" height="8" rx="4" fill="#E2E8F0"/>
+      <rect x="706" y="523" width="98" height="8" rx="4" fill="#E2E8F0"/>
+    </g>
+  </g>
+
+  <!-- pratinjau ponsel -->
+  <rect x="905" y="355" width="160" height="300" rx="22" fill="#0F172A"/>
+  <rect x="914" y="364" width="142" height="282" rx="15" fill="#fff"/>
+  <rect x="914" y="364" width="142" height="54" rx="15" fill="#2563EB"/>
+  <rect x="914" y="403" width="142" height="15" fill="#2563EB"/>
+  <rect x="932" y="384" width="62" height="9" rx="4.5" fill="#fff" fill-opacity=".9"/>
+  <g fill="#F1F5F9">
+    <rect x="930" y="436" width="110" height="46" rx="10"/>
+    <rect x="930" y="494" width="110" height="46" rx="10"/>
+    <rect x="930" y="552" width="110" height="46" rx="10"/>
+  </g>
+  <g fill="#CBD5E1">
+    <rect x="944" y="452" width="56" height="7" rx="3.5"/>
+    <rect x="944" y="510" width="72" height="7" rx="3.5"/>
+    <rect x="944" y="568" width="48" height="7" rx="3.5"/>
+  </g>
+
+  <!-- tanda kode -->
+  <g stroke="#2563EB" stroke-opacity=".45" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M96 636l-32 34 32 34"/>
+    <path d="M1112 92l32 34-32 34"/>
+  </g>
+</svg>

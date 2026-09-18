@@ -1,0 +1,13 @@
+# Normalisasi akhir baris: disimpan sebagai LF di repositori
+* text=auto eol=lf
+
+# File biner, jangan diutak-atik oleh git
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.pdf  binary
+*.woff  binary
+*.woff2 binary
