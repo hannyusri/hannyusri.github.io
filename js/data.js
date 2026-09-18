@@ -56,13 +56,13 @@ const DATA = {
   tentang: {
     paragraf: [
       "Saya Farhan Yusri, developer asal Medan yang membangun aplikasi Android dan website menggunakan Flutter. Satu basis kode untuk kedua platform membuat pengerjaan lebih singkat dan tampilannya konsisten di mana pun dibuka. Di samping itu saya aktif berkontribusi di berbagai project Web3 dan memproduksi video animasi berbasis AI.",
-      "Dalam bekerja saya memanfaatkan AI sebagai alat bantu — mulai dari riset, penulisan kode, sampai produksi visual. Pendekatan ini membuat proses pengerjaan jauh lebih cepat, sementara keputusan teknis dan kendali atas kualitas hasil akhir tetap ada di tangan saya.",
+      "Dalam bekerja saya memanfaatkan AI sebagai alat bantu — mulai dari riset, penulisan kode, sampai produksi visual. Pendekatan ini membuat proses pengerjaan jauh lebih cepat, sementara keputusan teknis dan kendali atas kualitas hasil akhir tetap ada di tangan saya. Cara kerja yang sama juga membuat saya cepat menyesuaikan diri ketika sebuah proyek menuntut teknologi di luar yang biasa saya gunakan.",
       "Prinsip saya sederhana: membersamai dengan solusi. Pekerjaan saya tidak berhenti saat file diserahkan, tapi ikut memastikan apa yang dibangun benar-benar menjawab kebutuhan Anda."
     ],
 
     fakta: [
       { label: "Status",      nilai: "Tersedia untuk proyek baru" },
-      { label: "Teknologi",   nilai: "Flutter & Dart" },
+      { label: "Teknologi",   nilai: "Flutter, Dart, Firebase" },
       { label: "Fokus",       nilai: "Android, Web, Video Animasi AI" },
       { label: "Metode",      nilai: "AI-assisted development" },
       { label: "Bahasa",      nilai: "Indonesia, Inggris" },
@@ -73,20 +73,24 @@ const DATA = {
   /* ==========================================================================
      3. KEAHLIAN
      ----------------------------------------------------------------------------
-     ISI — ini bagian yang paling perlu kamu lengkapi sebelum dipakai melamar
-     kerja. Rekruter teknis mencari nama teknologi yang konkret. Tambahkan yang
-     benar-benar kamu kuasai, misalnya: Kotlin, Java, Jetpack Compose, Firebase,
-     React, Laravel, Supabase, Solidity, Midjourney, Runway, CapCut, dsb.
-     Hapus juga yang menurutmu belum layak ditampilkan.
+     ATURAN PENTING: tulis hanya yang benar-benar kamu kuasai.
+     Bagian ini yang dipakai rekruter untuk menyusun pertanyaan wawancara.
+     Mencantumkan teknologi yang hanya bisa kamu pakai sambil dibantu AI
+     berisiko menjadi bumerang saat ditanya mendalam. Kemampuan beradaptasi
+     itu sendiri sudah dinyatakan di grup "Alur Kerja" dan di bagian Tentang,
+     tanpa perlu mengaku menguasai nama teknologi tertentu.
+
+     Kalau nanti kamu benar-benar mendalami sesuatu (Riverpod, BLoC, Supabase,
+     REST API, Google Play Console, dsb), tambahkan ke daftar di bawah.
 
      ikon: pilih salah satu — "android", "web", "video", "web3", "flow",
            "code", "design", "database", "cloud", "chat".
      ========================================================================== */
   keahlian: [
     {
-      grup: "Flutter & Dart",
+      grup: "Flutter & Firebase",
       ikon: "code",
-      items: ["Flutter", "Dart", "Satu basis kode Android & Web", "Widget & antarmuka kustom", "Integrasi API"]
+      items: ["Flutter", "Dart", "Firebase", "Satu basis kode Android & Web", "Widget & antarmuka kustom", "Integrasi API"]
     },
     {
       grup: "Pengembangan Android",
@@ -111,7 +115,7 @@ const DATA = {
     {
       grup: "Alur Kerja",
       ikon: "flow",
-      items: ["AI-Assisted Development", "Prompt Engineering", "Dokumentasi Proyek", "Komunikasi Klien"]
+      items: ["AI-Assisted Development", "Prompt Engineering", "Adaptasi ke stack baru", "Dokumentasi Proyek", "Komunikasi Klien"]
     }
   ],
 
@@ -122,7 +126,7 @@ const DATA = {
      Kosongkan dengan [] untuk menghilangkan stripnya.
      ========================================================================== */
   marquee: [
-    "Flutter", "Dart", "Android", "Flutter Web", "Website", "Web App",
+    "Flutter", "Dart", "Firebase", "Android", "Flutter Web", "Website", "Web App",
     "Video Animasi AI", "Web3", "UI/UX", "AI-Assisted Development",
     "Prompt Engineering", "Desain Responsif", "Storyboard",
     "Voice Over AI", "Integrasi API"
@@ -188,9 +192,9 @@ const DATA = {
       klien: "Pratama English Course",
       tahun: "2025",                               // CEK
       peran: "Fullstack Developer",
-      deskripsi: "Web app untuk lembaga kursus bahasa Inggris, memudahkan peserta mengakses materi dan informasi kelas dari ponsel maupun komputer.",
+      deskripsi: "Web app untuk lembaga kursus bahasa Inggris, dibangun dengan Flutter dan Firebase. Memudahkan peserta mengakses materi dan informasi kelas dari ponsel maupun komputer.",
       hasil: "",                                   // ISI — hasil konkretnya apa? (mis. jumlah peserta terdaftar)
-      tags: ["Web App", "Pendidikan", "Fullstack"],
+      tags: ["Flutter", "Firebase", "Web App", "Pendidikan"],
       gambar: "assets/img/cover-web.svg",          // GANTI dengan screenshot asli situsnya
       link: "https://pratamaenglishcourse.online"
     },
@@ -233,7 +237,7 @@ const DATA = {
       periode: "2025 — Sekarang",
       lokasi: "Medan",
       poin: [
-        "Membangun aplikasi Android dan website dari perancangan hingga rilis, termasuk aplikasi Pratama English Course.",
+        "Membangun aplikasi Android dan website dengan Flutter dan Firebase, dari perancangan hingga rilis, termasuk Pratama English Course.",
         "Memanfaatkan AI sebagai alat bantu pengembangan sehingga waktu pengerjaan proyek jauh lebih singkat.",
         "Menangani komunikasi klien secara langsung, mulai dari penggalian kebutuhan sampai serah terima hasil."
       ]
