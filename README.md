@@ -106,6 +106,26 @@ Warna untuk mode gelap ada di blok `[data-theme="dark"]` tepat di bawahnya.
 
 ---
 
+## Kalau perubahan belum terlihat setelah update
+
+Bukan berarti gagal ter-upload. GitHub Pages menyuruh browser menyimpan file selama 10 menit, jadi browser masih memakai salinan lama.
+
+**Cara cepat memastikan:** tekan `Ctrl` + `Shift` + `R` (muat ulang paksa), atau buka situsnya di jendela penyamaran / incognito. Kalau di incognito sudah tampil versi baru, berarti update-nya berhasil dan yang lama hanya cache.
+
+**Supaya tidak terulang:** di `index.html` ada penanda versi pada tautan CSS dan JS:
+
+```html
+<link rel="stylesheet" href="css/styles.css?v=2">
+<script src="js/data.js?v=2"></script>
+<script src="js/main.js?v=2"></script>
+```
+
+Naikkan angkanya (`v=2` jadi `v=3`, dan seterusnya) setiap kali kamu mengubah `styles.css`, `data.js`, atau `main.js`. Browser akan menganggapnya file baru dan langsung mengunduh ulang.
+
+Perlu diingat juga: setelah `git push`, GitHub butuh sekitar satu menit untuk membangun ulang situsnya. Progresnya bisa dilihat di tab **Actions** pada repositori.
+
+---
+
 ## Publikasi ke internet (gratis)
 
 Pilih salah satu:

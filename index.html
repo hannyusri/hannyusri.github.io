@@ -30,7 +30,12 @@
 
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 
-<link rel="stylesheet" href="css/styles.css">
+<!-- Angka ?v= di bawah adalah penanda versi.
+     GitHub Pages menyuruh browser menyimpan file selama 10 menit, sehingga
+     perubahan sering belum terlihat walaupun sudah ter-push. Menaikkan angka
+     ini membuat browser menganggapnya file baru dan mengunduh ulang seketika.
+     NAIKKAN ANGKANYA setiap kali mengubah styles.css, data.js, atau main.js. -->
+<link rel="stylesheet" href="css/styles.css?v=2">
 
 <!-- Tema default selalu TERANG. Mode gelap tetap tersedia lewat tombol di navbar
      dan pilihan pengunjung tersimpan di browsernya. -->
@@ -261,7 +266,7 @@
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
 </button>
 
-<script src="js/data.js"></script>
-<script src="js/main.js"></script>
+<script src="js/data.js?v=2"></script>
+<script src="js/main.js?v=2"></script>
 </body>
 </html>
