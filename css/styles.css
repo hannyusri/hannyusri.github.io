@@ -321,10 +321,11 @@ button { font: inherit; color: inherit; }
   margin-bottom: 14px;
 }
 
-/* Profesi berputar — label monospace, seperti baris terminal */
+/* Profesi berputar — label monospace, seperti baris terminal.
+   Sengaja block, bukan flex: kalau flex, tanda ">" jadi item tersendiri dan
+   terlihat menggantung terpisah saat teksnya membungkus di layar sempit. */
 .hero__role {
-  display: flex;
-  align-items: center;
+  display: block;
   min-height: 1.6rem;
   font-family: var(--font-mono);
   font-size: 14.5px;
@@ -790,7 +791,9 @@ button { font: inherit; color: inherit; }
 /* ----------------------------------------------------------- PERJALANAN --- */
 .journey {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  /* min() penting: tanpa itu kolom tidak bisa menyempit di bawah 310px
+     dan memaksa halaman melebar di layar kecil seperti 320px */
+  grid-template-columns: repeat(auto-fit, minmax(min(310px, 100%), 1fr));
   gap: clamp(36px, 6vw, 64px);
 }
 .journey__label {
@@ -875,7 +878,7 @@ button { font: inherit; color: inherit; }
 /* ------------------------------------------------------------ TESTIMONI --- */
 .quotes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(290px, 100%), 1fr));
   gap: 20px;
 }
 .quote {
@@ -1245,6 +1248,21 @@ button { font: inherit; color: inherit; }
 /* Efek pointer hanya untuk perangkat bermouse — di layar sentuh tidak berguna */
 @media (hover: none), (pointer: coarse) {
   .glare { display: none; }
+
+  /* Target sentuh diperbesar ke 44px, ukuran minimum yang nyaman ditekan jari.
+     Hanya berlaku di layar sentuh supaya tampilan desktop tetap ringkas. */
+  .icon-btn { width: 44px; height: 44px; }
+  .nav__brand { padding-block: 9px; }
+  .nav__links a { padding-block: 15px; }
+  /* tombol Hubungi punya padding sendiri dengan kekhususan lebih tinggi,
+     jadi harus ditimpa secara eksplisit */
+  .nav__links a.nav__cta { padding-block: 15px; }
+  /* petunjuk gulir tidak ada gunanya di layar sentuh */
+  .hero__scroll { display: none; }
+  .footer__social a { width: 42px; height: 42px; }
+  .contact__copy { padding: 11px 14px; }
+  .work__link { padding-block: 10px; }
+  .filter { padding-block: 11px; }
 }
 
 /* ------------------------------------------------------------- PRINT ------ */

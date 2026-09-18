@@ -12,7 +12,9 @@
   <rect width="1200" height="750" fill="url(#w3-grid)"/>
 
   <!-- jaringan simpul -->
-  <g stroke="#2563EB" stroke-opacity=".3" stroke-width="3">
+  <!-- fill="none" wajib: tanpa itu path bersegmen banyak akan ditutup
+       otomatis dan terisi hitam -->
+  <g fill="none" stroke="#2563EB" stroke-opacity=".3" stroke-width="3">
     <path d="M600 375L286 214M600 375l314-161M600 375L286 536M600 375l314 161M600 375V126M600 375v249"/>
     <path d="M286 214L600 126l314 88M286 536L600 624l314-88M286 214v322M914 214v322" stroke-opacity=".16"/>
   </g>
