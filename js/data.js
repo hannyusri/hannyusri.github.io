@@ -26,8 +26,8 @@ const DATA = {
 
     // Profesi yang berganti-ganti otomatis di hero.
     peran: [
-      "Fullstack Android & Web Developer",
       "Flutter Developer",
+      "Fullstack Android & Web Developer",
       "AI Animation Creator",
       "Web3 Contributor"
     ],
@@ -55,15 +55,16 @@ const DATA = {
      ========================================================================== */
   tentang: {
     paragraf: [
-      "Saya Farhan Yusri, developer asal Medan yang membangun aplikasi Android dan website menggunakan Flutter. Satu basis kode untuk kedua platform membuat pengerjaan lebih singkat dan tampilannya konsisten di mana pun dibuka. Di samping itu saya aktif berkontribusi di berbagai project Web3 dan memproduksi video animasi berbasis AI.",
+      "Saya Farhan Yusri, Flutter developer asal Medan. Flutter adalah alat utama saya sehari-hari, dipasangkan dengan Firebase untuk membangun aplikasi Android sekaligus website dari satu basis kode — pengerjaan lebih singkat dan tampilannya konsisten di mana pun dibuka. Di samping itu saya aktif berkontribusi di berbagai project Web3 dan memproduksi video animasi berbasis AI.",
       "Dalam bekerja saya memanfaatkan AI sebagai alat bantu — mulai dari riset, penulisan kode, sampai produksi visual. Pendekatan ini membuat proses pengerjaan jauh lebih cepat, sementara keputusan teknis dan kendali atas kualitas hasil akhir tetap ada di tangan saya. Cara kerja yang sama juga membuat saya cepat menyesuaikan diri ketika sebuah proyek menuntut teknologi di luar yang biasa saya gunakan.",
       "Prinsip saya sederhana: membersamai dengan solusi. Pekerjaan saya tidak berhenti saat file diserahkan, tapi ikut memastikan apa yang dibangun benar-benar menjawab kebutuhan Anda."
     ],
 
     fakta: [
       { label: "Status",      nilai: "Tersedia untuk proyek baru" },
+      { label: "Spesialisasi", nilai: "Flutter (Android & Web)" },
       { label: "Teknologi",   nilai: "Flutter, Dart, Firebase" },
-      { label: "Fokus",       nilai: "Android, Web, Video Animasi AI" },
+      { label: "Fokus lain",  nilai: "Video Animasi AI, Web3" },
       { label: "Metode",      nilai: "AI-assisted development" },
       { label: "Bahasa",      nilai: "Indonesia, Inggris" },
       { label: "Cara kerja",  nilai: "Remote & on-site (Medan)" }
