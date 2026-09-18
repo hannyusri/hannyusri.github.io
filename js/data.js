@@ -27,6 +27,7 @@ const DATA = {
     // Profesi yang berganti-ganti otomatis di hero.
     peran: [
       "Fullstack Android & Web Developer",
+      "Flutter Developer",
       "AI Animation Creator",
       "Web3 Contributor"
     ],
@@ -54,13 +55,14 @@ const DATA = {
      ========================================================================== */
   tentang: {
     paragraf: [
-      "Saya Farhan Yusri, developer asal Medan yang berfokus pada pembuatan aplikasi Android dan website. Di samping itu saya aktif berkontribusi di berbagai project Web3 dan memproduksi video animasi berbasis AI.",
+      "Saya Farhan Yusri, developer asal Medan yang membangun aplikasi Android dan website menggunakan Flutter. Satu basis kode untuk kedua platform membuat pengerjaan lebih singkat dan tampilannya konsisten di mana pun dibuka. Di samping itu saya aktif berkontribusi di berbagai project Web3 dan memproduksi video animasi berbasis AI.",
       "Dalam bekerja saya memanfaatkan AI sebagai alat bantu — mulai dari riset, penulisan kode, sampai produksi visual. Pendekatan ini membuat proses pengerjaan jauh lebih cepat, sementara keputusan teknis dan kendali atas kualitas hasil akhir tetap ada di tangan saya.",
       "Prinsip saya sederhana: membersamai dengan solusi. Pekerjaan saya tidak berhenti saat file diserahkan, tapi ikut memastikan apa yang dibangun benar-benar menjawab kebutuhan Anda."
     ],
 
     fakta: [
       { label: "Status",      nilai: "Tersedia untuk proyek baru" },
+      { label: "Teknologi",   nilai: "Flutter & Dart" },
       { label: "Fokus",       nilai: "Android, Web, Video Animasi AI" },
       { label: "Metode",      nilai: "AI-assisted development" },
       { label: "Bahasa",      nilai: "Indonesia, Inggris" },
@@ -82,14 +84,19 @@ const DATA = {
      ========================================================================== */
   keahlian: [
     {
+      grup: "Flutter & Dart",
+      ikon: "code",
+      items: ["Flutter", "Dart", "Satu basis kode Android & Web", "Widget & antarmuka kustom", "Integrasi API"]
+    },
+    {
       grup: "Pengembangan Android",
       ikon: "android",
-      items: ["Aplikasi Android", "Desain Antarmuka Mobile", "Integrasi API", "Rilis & Distribusi Aplikasi"]
+      items: ["Aplikasi Android", "Desain Antarmuka Mobile", "Rilis & Distribusi Aplikasi"]
     },
     {
       grup: "Pengembangan Web",
       ikon: "web",
-      items: ["Website Company Profile", "Aplikasi Web", "Responsive Design", "Integrasi Database"]
+      items: ["Flutter Web", "Website Company Profile", "Aplikasi Web", "Desain Responsif", "Integrasi Database"]
     },
     {
       grup: "Video Animasi AI",
@@ -115,9 +122,10 @@ const DATA = {
      Kosongkan dengan [] untuk menghilangkan stripnya.
      ========================================================================== */
   marquee: [
-    "Android", "Website", "Web App", "Video Animasi AI", "Web3",
-    "UI/UX", "AI-Assisted Development", "Prompt Engineering",
-    "Responsive Design", "Storyboard", "Voice Over AI", "Integrasi API"
+    "Flutter", "Dart", "Android", "Flutter Web", "Website", "Web App",
+    "Video Animasi AI", "Web3", "UI/UX", "AI-Assisted Development",
+    "Prompt Engineering", "Desain Responsif", "Storyboard",
+    "Voice Over AI", "Integrasi API"
   ],
 
   /* ==========================================================================
@@ -131,16 +139,16 @@ const DATA = {
       nomor: "01",
       judul: "Pembuatan Aplikasi Android",
       ikon: "android",
-      deskripsi: "Aplikasi Android sesuai kebutuhan bisnis Anda, dari perancangan alur sampai siap dipasang di perangkat pengguna.",
-      poin: ["Perancangan alur & antarmuka", "Pengembangan fitur sesuai kebutuhan", "Pengujian & pendampingan rilis"],
+      deskripsi: "Aplikasi Android sesuai kebutuhan bisnis Anda, dibangun dengan Flutter dari perancangan alur sampai siap dipasang di perangkat pengguna.",
+      poin: ["Dibangun dengan Flutter & Dart", "Perancangan alur & antarmuka", "Pengujian & pendampingan rilis"],
       harga: ""                                    // ISI — opsional
     },
     {
       nomor: "02",
       judul: "Pembuatan Website",
       ikon: "web",
-      deskripsi: "Website company profile maupun aplikasi web yang rapi, cepat diakses, dan nyaman dibuka dari ponsel.",
-      poin: ["Desain menyesuaikan identitas brand", "Responsif di semua ukuran layar", "Struktur siap ditemukan di Google"],
+      deskripsi: "Website company profile maupun aplikasi web yang rapi, cepat diakses, dan nyaman dibuka dari ponsel. Bisa berbagi basis kode dengan versi Android-nya lewat Flutter.",
+      poin: ["Desain menyesuaikan identitas brand", "Responsif di semua ukuran layar", "Hemat waktu lewat basis kode bersama"],
       harga: ""                                    // ISI — opsional
     },
     {
